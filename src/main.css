@@ -115,7 +115,7 @@ main {
 
 footer {
   grid-column: 1/-1;
-  background-color: #866860;
+  background-color: #F2F2F2;
 }
 
 table {
@@ -132,4 +132,28 @@ table td {
   padding: 20px;
   text-align: center;
   border-bottom: 2px solid #D5C2B6;
+}
+table input {
+  outline: none;
+  height: 20px;
+  border: none;
+  background-color: #F2F2F2;
+}
+
+.del-task {
+  border: none;
+  background-color: #f44336;
+  color: #F2F2F2;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-task {
+  border: none;
+  background-color: #4CAF50;
+  color: #F2F2F2;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

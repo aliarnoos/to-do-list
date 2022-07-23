@@ -115,7 +115,7 @@ main {
 }
 footer {
     grid-column: 1/-1;
-    background-color: $sec-color;
+    background-color: $back-color;
 }
 
 
@@ -136,5 +136,27 @@ table {
         border-bottom: 2px solid $main-color;
 
     }
+    input {
+        outline: none;
+        height: 20px;
+        border: none;
+        background-color: $back-color;
+    }
 
+}
+.del-task {
+   border: none; 
+   background-color: $del-btn;
+   color: $back-color;
+   padding: 8px;
+   border-radius: 6px;
+   cursor: pointer;
+}
+.add-task {
+    border: none; 
+    background-color: $add-btn;
+    color: $back-color;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
 }
