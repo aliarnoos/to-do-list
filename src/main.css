@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 80px 1fr 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+}
+
+header {
+  grid-column: 1/-1;
+  background-color: #866860;
+  color: #F2F2F2;
+  display: flex;
+  justify-content: center;
+}
+
+#side-bar {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 90vh;
+  background-color: #D5C2B6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#side-bar h2 {
+  margin: 0;
+  padding: 20px;
+}
+#side-bar button {
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #F2F2F2;
+}
+#side-bar button:hover {
+  color: #866860;
+}
+#side-bar .input-project {
+  visibility: hidden;
+  position: absolute;
+  top: 80px;
+  background-color: #F2F2F2;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px;
+}
+#side-bar .input-project input {
+  width: 150px;
+  height: 25px;
+  border: none;
+  outline: none;
+  border: 2px solid #D5C2B6;
+  border-radius: 8px;
+  font-size: 15px;
+}
+#side-bar .input-project .project-control {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 10px;
+}
+#side-bar .input-project button {
+  width: 50%;
+  background-color: #457b9d;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+#side-bar .input-project .add {
+  background-color: #4CAF50;
+}
+#side-bar .input-project .delete {
+  background-color: #f44336;
+}
+#side-bar .project-btn {
+  background-color: #F2F2F2;
+  color: #D5C2B6;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 40px;
+}
+#side-bar .del-btn {
+  background-color: #f44336;
+  color: #F2F2F2;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.project {
+  font-size: 18px;
+  cursor: pointer;
+  color: #F2F2F2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#cont-project {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+main {
+  grid-column: 2/3;
+  grid-row: -3/-2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+footer {
+  grid-column: 1/-1;
+  background-color: #866860;
+}
+
+table {
+  margin: 30px;
+  width: 1000px;
+  border-collapse: collapse;
+}
+table th {
+  padding: 20px;
+  color: #866860;
+  border-bottom: 2px solid #866860;
+}
+table td {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #D5C2B6;
+}/*# sourceMappingURL=main.css.map */

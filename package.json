@@ -4,8 +4,7 @@
   "description": "A To Do List for The Odin Project",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -19,13 +18,7 @@
   },
   "homepage": "https://github.com/aliarnoos/to-do-list#readme",
   "devDependencies": {
-    "css-loader": "^6.7.1",
-    "html-webpack-plugin": "^5.5.0",
-    "sass": "^1.53.0",
-    "sass-loader": "^13.0.2",
-    "style-loader": "^3.3.1",
     "webpack": "^5.73.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.9.3"
+    "webpack-cli": "^4.10.0"
   }
 }
